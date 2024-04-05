@@ -13,10 +13,6 @@ instance_api_version = "2021-02-01"
 instance_endpoint = imds_server_base_url + \
     "/metadata/instance?api-version=" + instance_api_version
 
-attested_api_version = "2021-02-01"
-attested_nonce = "1234576"
-attested_endpoint = imds_server_base_url + "/metadata/attested/document?api-version=" + \
-    attested_api_version + "&nonce=" + attested_nonce
 
 # Proxies must be bypassed when calling Azure IMDS
 proxies = {
